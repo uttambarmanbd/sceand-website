@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.flex-container>div{
+  font-size: 40px;
+  margin: 20px;
+  padding: 15px;
+  background-color: tomato;
+}
+.flex-container{
+    /* width: 40%; */
+ background-color: blueviolet;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ flex-direction: row;
+}
+
+.shado-container h1{
+    text-shadow: 5px 5px 5px brown;
+}
+
+.box-shado{
+    margin-top: 15px;
+    padding: 10px;
+   width: 200px; 
+   background-color: blueviolet;
+   border: 2px solid red;
+   box-shadow: 15px 15px 10px turquoise;
+}
+.card{
+    width: 300px;
+    margin: 10px;
+    margin-top:80px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 7px #793939;
+
+}
+.img{
+    width: 100%;
+
+}
+
+.card-body{
+    padding: 8px;
+    background-color: tomato;
+
+}
+.card-title{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    
+}
+.card 
+.card-dec{
+    font-size:25px;
+    text-align: justify;
+    color: #fff;
+}
+/* .card :hover{
+    box-shadow: 10px 10px  8px;
+} */
+/* .flex-container{
+    justify-content: center;
+    align-items: center;
+} */
+/* .top{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.left p{
+    margin-top:40px;
+    margin-left: 50px;
+   
+}
+.right{
+    margin:40px;
+    display: flex;
+    position:absolute;
+    justify-content: space-between;
+    margin-left: 600px;
+
+}   
+.right ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+
+
+.right ul li a{
+        
+        text-decoration: none;
+
+} 
+.right ul li {
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
